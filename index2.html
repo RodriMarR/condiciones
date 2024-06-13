@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>2da parte</title>
+  </head>
+  <body>
+    <a href="./index1.html" target="_blank">Parte 1</a>
+    <a href="./index3.html" target="_blank">Parte 3</a>
+    <div class="conteiner">
+      <p>Escoge bien, solo puedes llevar 10 en total</p>
+      <div class="conteinerTarjet">
+        <div class="tarjet caja">
+          <img class="imagen" src="./assets/imgs/amarillo.png" alt="" />
+          <input id="cantidadIn1" type="number" min="0" />
+        </div>
+        <div class="tarjet caja">
+          <img class="imagen" src="./assets/imgs/rojo.png" alt="" />
+          <input id="cantidadIn2" type="number" min="0" />
+        </div>
+        <div class="tarjet caja">
+          <img class="imagen" src="./assets/imgs/verde.png" alt="" />
+          <input id="cantidadIn3" type="number" min="0" />
+        </div>
+      </div>
+      <p id="mensaje"></p>
+      <button onclick="calculo()">Validar</button>
+    </div>
+  </body>
+  <script src="./assets/js/script.js"></script>
+</html>
